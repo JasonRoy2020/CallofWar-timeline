@@ -5,7 +5,7 @@ import asyncio
 import datetime
 import os
 
-TOKEN = os.environ['Callofwartimeline']
+TOKEN = os.environ['key']
 
 class TimelineBot(discord.Client):
     def __init__(self):
